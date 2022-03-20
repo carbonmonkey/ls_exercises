@@ -9,12 +9,9 @@ end
 p square(5) == 25
 p square(-8) == 64
 
+# Further Exploration
 def power_to_the_nth(number, nth)
-  total = number
-  (nth - 1).times do |_|
-    total = multiply(total, number)
-  end
-  total
+  multiply(number, 1) ** nth
 end
 
-p power_to_the_nth(-3, 3)
+p power_to_the_nth(2, 4)
