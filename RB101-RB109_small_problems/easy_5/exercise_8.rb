@@ -25,3 +25,6 @@ p alphabetic_number_sort(numbers) == [
 ]
 
 p numbers
+
+# if the Array#sort_by! method is used, the alphabetic_number_sort method will be distructive
+# to the object passed in as an argument.
