@@ -1,0 +1,3 @@
+Once upon a time the was a %{adjective}, %{adjective} %{noun}. It
+%{verb} %{adverb} all the way to the %{adjective}, %{adjective}
+%{noun}. Isn't that a great story!
